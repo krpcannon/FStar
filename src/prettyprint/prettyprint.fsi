@@ -40,7 +40,7 @@ val blank: int -> document
 val break_: int -> document
 
 // val (^^): document -> document -> document
-val conat : document -> document -> document
+val concat2 : document -> document -> document
 
 val nest: int -> document -> document
 

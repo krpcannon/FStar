@@ -53,7 +53,7 @@ let blank (n:int) : document = failwith not_impl_msg
 let break_ (n:int) : document = failwith not_impl_msg
 
 //let (^^) (doc1:document) (doc2:document) : document = failwith not_impl_msg
-let concat (doc1:document) (doc2:document) : document = failwith not_impl_msg
+let concat2 (doc1:document) (doc2:document) : document = failwith not_impl_msg
 
 let nest (j:int) (doc:document) : document = failwith not_impl_msg
 
