@@ -24,7 +24,7 @@ endif
 CONFIGURATION=Release
 -include Makefile.local
 
-MSBUILD := $(MSBUILD) /verbosity:minimal /p:Configuration=$(CONFIGURATION)
+MSBUILD := $(MSBUILD) /verbosity:normal /p:Configuration=$(CONFIGURATION)
 
 ifeq ($(UNAME),Darwin)
   HEAD=ghead
